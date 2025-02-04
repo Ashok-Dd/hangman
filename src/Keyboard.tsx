@@ -11,7 +11,7 @@ type KeyboardProps = {
         {keys.map((key) => (
           <button
             key={key}
-            className={`shadow-xl w-[50px] rounded-md h-[50px]  flex items-center justify-center font-bold capitalize text-2xl cursor-pointer ${
+            className={`shadow-xl w-[50px] sm:w-[40px] sm:w-[40px] rounded-md h-[50px]  flex items-center justify-center font-bold capitalize text-2xl cursor-pointer ${
               guessedLetters.includes(key) ? "bg-gray-300 cursor-not-allowed hover:bg-gray-300 text-white" : "bg-yellow-300 hover:bg-yellow-200"
             }`}
             onClick={() => onGuess(key)}

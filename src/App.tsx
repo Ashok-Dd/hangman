@@ -73,14 +73,14 @@ const App = () => {
             {isWinner ? (
               <>
                 Congratulations! You won! The word is{" "}
-                <span className="uppercase text-4xl font-bold text-white  ">
+                <span className="uppercase text-4xl sm:text-3xl font-bold text-white  ">
                   {wordToGuess}
                 </span>
               </>
             ) : (
               <>
                 Oops! You lost! The word was{" "}
-                <span className="uppercase text-4xl font-bold text-red-500">
+                <span className="uppercase text-4xl sm:text-3xl font-bold text-red-500">
                   {wordToGuess}
                 </span>
               </>
@@ -98,7 +98,7 @@ const App = () => {
           </button>
         </>
       ) : (
-        <div className="w-full max-w-[60%] ">
+        <div className="w-[60%] sm:w-[100%] ">
           <Keyboard guessedLetters={guessedLetters} onGuess={handleGuessedLetter} />
         </div>
       )}

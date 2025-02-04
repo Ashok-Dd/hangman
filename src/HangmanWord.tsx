@@ -10,7 +10,7 @@ type GuessWordProps = {
     reveal,
   }: GuessWordProps) {
     return (
-      <div className="flex gap-2 text-7xl font-bold uppercase font-mono mb-10">
+      <div className="flex gap-2 sm:gap-1 text-7xl sm:text-5xl font-bold uppercase font-mono mb-10">
         {wordToGuess.split("").map((letter, index) => (
           <span className="border-b-5 border-black" key={index}>
             <span
