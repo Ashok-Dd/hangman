@@ -69,7 +69,7 @@ const App = () => {
 
       {isWinner || isLoser ? (
         <>
-          <div className="text-2xl">
+          <div className="text-2xl text-center">
             {isWinner ? (
               <>
                 Congratulations! You won! The word is{" "}
