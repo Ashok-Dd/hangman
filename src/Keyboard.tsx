@@ -7,11 +7,11 @@ type KeyboardProps = {
     const keys = "abcdefghijklmnopqrstuvwxyz".split("");
   
     return (
-      <div className="flex flex-wrap gap-3">
+      <div className="flex w-full max-w-[80%] min-w-[60%] items-center justify-center flex-wrap gap-3">
         {keys.map((key) => (
           <button
             key={key}
-            className={`shadow-xl w-[50px] sm:w-[40px] sm:w-[40px] rounded-md h-[50px]  flex items-center justify-center font-bold capitalize text-2xl cursor-pointer ${
+            className={`shadow-xl w-[50px] sm:w-[40px] sm:h-[40px]  rounded-md h-[50px]  flex items-center justify-center font-bold capitalize text-2xl cursor-pointer ${
               guessedLetters.includes(key) ? "bg-gray-300 cursor-not-allowed hover:bg-gray-300 text-white" : "bg-yellow-300 hover:bg-yellow-200"
             }`}
             onClick={() => onGuess(key)}

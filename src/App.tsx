@@ -59,7 +59,7 @@ const App = () => {
 
 
   return (
-    <div className="flex flex-col bg-sky-200 w-full gap-4 m-auto items-center h-screen  ">
+    <div className="flex flex-col bg-sky-200 w-full gap-4  items-center h-screen  ">
       <div className="text-3xl w-full text-center uppercase text-red-500  p-1 font-bold">
         hangman game
       </div>
@@ -98,9 +98,7 @@ const App = () => {
           </button>
         </>
       ) : (
-        <div className="w-[60%] sm:w-[100%] ">
           <Keyboard guessedLetters={guessedLetters} onGuess={handleGuessedLetter} />
-        </div>
       )}
     </div>
   );
