@@ -7,19 +7,19 @@ const Body = (
 )
 
 const RightArm = (
-    <div className="w-[100px] sm:w-[70px] h-[10px] bg-black rotate-30 absolute top-[150px] right-[-60px] " />
+    <div className="w-[70px]  h-[10px] bg-black rotate-30 absolute top-[150px] right-[-60px] " />
 )
 
 const LeftArm = (
-    <div className="w-[100px] sm:w-[70px] h-[10px] bg-black rotate-150 absolute top-[150px] right-0 " />
+    <div className="w-[70px] h-[10px] bg-black rotate-150 absolute top-[150px] right-0 " />
 )
 
 const LeftLeg = (
-<div className="w-[100px] sm:w-[70px] h-[10px] bg-black rotate-30 absolute top-[225px] right-[-60px] transform" />
+<div className="w-[70px] h-[10px] bg-black rotate-30 absolute top-[225px] right-[-60px]" />
 )
 
 const RightLeg = (
-    <div className="w-[100px] sm:w-[70px] h-[10px] bg-black rotate-150 absolute top-[225px] right-0 " />
+    <div className="w-[70px] h-[10px] bg-black rotate-150 absolute top-[225px] right-0 " />
 )
 
 
