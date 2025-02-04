@@ -38,7 +38,7 @@ export default function HangmanDrawing({ numberOfGuesses } : HangManProps ) {
 
         <div className="h-[10px] w-full max-w-[120px]   ml-[120px] bg-black" />
 
-        <div className="w-[10px]  sm:h-[300px] h-[350px]  bg-black ml-[120px] " />
+        <div className="w-[10px]  sm:h-[350px] h-[300px]  bg-black ml-[120px] " />
 
         <div className="h-[10px] w-[250px] bg-black " />
     </div>
