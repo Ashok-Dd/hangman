@@ -69,18 +69,18 @@ const App = () => {
 
       {isWinner || isLoser ? (
         <>
-          <div className="text-2xl text-center">
+          <div className="text-xl p-1 sm:text-2xl text-center">
             {isWinner ? (
               <>
                 Congratulations! You won! The word is{" "}
-                <span className="uppercase text-4xl sm:text-3xl font-bold text-white  ">
+                <span className="uppercase text-2xl sm:text-3xl font-bold text-white  ">
                   {wordToGuess}
                 </span>
               </>
             ) : (
               <>
                 Oops! You lost! The word was{" "}
-                <span className="uppercase text-4xl sm:text-3xl font-bold text-red-500">
+                <span className="uppercase text-2xl sm:text-3xl font-bold text-red-500">
                   {wordToGuess}
                 </span>
               </>
